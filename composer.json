@@ -1,0 +1,19 @@
+{
+    "name": "smsfly/smsflyapi",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SmsFly\\SmsFlyApi\\": "src/"
+        },
+        "files":[
+            "src/SmsFlyApi.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Vadym Podlevsky",
+            "email": "vadim.podlevsky@gmail.com"
+        }
+    ],
+    "require": {}
+}
