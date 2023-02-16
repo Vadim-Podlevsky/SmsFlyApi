@@ -1,5 +1,6 @@
 {
     "name": "smsfly/smsflyapi",
+    "description": "PHP Class for SmsFly JSON Api: https://sms-fly.ua/public/api.v2.03.pdf",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -15,5 +16,7 @@
             "email": "vadim.podlevsky@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.0"
+    }
 }
